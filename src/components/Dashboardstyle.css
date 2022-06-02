@@ -1,0 +1,16 @@
+.logo h1{
+    color: black;
+}
+.admin-content{
+    width: 100%;
+    display: flex;
+   
+}
+/* .sidebar-container{
+    width: 30%;
+    height: 60vh;
+    background-color: rg;b(127,193,87)
+}*/
+.outlet{
+    width: 70%;
+} 

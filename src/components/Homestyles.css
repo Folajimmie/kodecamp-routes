@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage-container{
+    /* background-image: linear-gradient(to left, rgb(12,158,218), rgb(127,193,87)); */
+    background-color: rgb(127,193,87);
+    width: 100%;
+    height: 99vh;
+    
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.logo a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.login-btn button{
+    background-color: inherit;
+    height: 30px;
+    width: 70px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.login-btn button:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.icon1{
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    top: -29px;   
+}
+.crown{
+    width: 100%;
+    height: 140px;
+    color: white;
+    opacity: 0.6;
+}
+.icon2{
+    width: 50%;
+    position: absolute;
+    right: 50%;
+    bottom: 29px;   
+}
+.open-book{
+    width: 100%;
+    height: 140px;
+    color: whitesmoke;
+    opacity: 0.6;
+}
+.icon3{
+    width: 50%;
+    position: absolute;
+    right: 50%;  
+}
+.dice{
+    width: 100%;
+    height: 140px;
+    color: black;
+    opacity: 0.9;
+}
+.welcome-text{
+    width: 50%;
+    margin-top: 13%;
+    margin-left: 15%;
+}
+ .text-head{
+    display: inline-block;
+    max-width: 400px;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+}
+.text-content{
+    max-width: 60%;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+}
+.content-img{
+    width: 50%;
+}
+.content-img img{
+    margin-top: 75px;
+}
